@@ -1,3 +1,4 @@
+
 import dash
 from dash import dcc
 from dash import html
@@ -265,4 +266,4 @@ def update_output_div(date, hour, proy):
 
 # Run the server
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(host="0.0.0.0",debug=True)
